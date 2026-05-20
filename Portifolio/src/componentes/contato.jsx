@@ -6,27 +6,21 @@ function Contato() {
   const ref = useRef(null);
   const visivel = useInView(ref, { once: true, margin: "-100px" });
 
-  // ============================================================
-  // SUAS INFORMAÇÕES DE CONTATO — edite aqui!
-  // ============================================================
   const informacoesContato = [
     {
-      icone: "✉",
       titulo: "Email",
-      valor: "seuemail@email.com",       // <-- coloque seu email
-      link: "mailto:seuemail@email.com",
+      valor: "reismarcio143@gmail.com",       
+      link: "https://mail.google.com/mail/?view=cm&to=reismarcio143@gmail.com",
     },
     {
-      icone: "💼",
       titulo: "LinkedIn",
-      valor: "linkedin.com/in/seu-perfil", // <-- coloque seu LinkedIn
-      link: "https://linkedin.com/in/seu-perfil",
+      valor: "linkedin.com/in/marcio-reis-26862337a", 
+      link: "https://www.linkedin.com/in/marcio-reis-26862337a/",
     },
     {
-      icone: "🐙",
       titulo: "GitHub",
-      valor: "github.com/seu-usuario",     // <-- coloque seu GitHub
-      link: "https://github.com/seu-usuario",
+      valor: "github.com/marcinreis",     
+      link: "https://github.com/marcinreis",
     },
   ];
   // ============================================================

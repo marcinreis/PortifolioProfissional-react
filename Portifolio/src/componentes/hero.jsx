@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import perfil from "../imagens/image.jpg"
 
 function Hero() {
   return (
@@ -67,7 +68,7 @@ function Hero() {
           >
             {/* ===== COLOQUE O CAMINHO DA SUA FOTO AQUI ===== */}
             <img
-              src=""
+              src={perfil}
               alt="Foto de perfil"
               style={{
                 width: "100%",
@@ -114,9 +115,7 @@ function Hero() {
             }}
           >
             {/* ===== COLOQUE SEU NOME AQUI ===== */}
-            Seu Nome
-            <br />
-            <span style={{ color: "#00d4c8" }}>Aqui</span>
+            Marcio Reis
           </motion.h1>
 
           {/* Cargo / descrição */}
@@ -134,9 +133,9 @@ function Hero() {
             }}
           >
             {/* ===== EDITE SUA DESCRIÇÃO AQUI ===== */}
-            Estudante de Desenvolvimento Web apaixonado por criar
-            interfaces modernas e funcionais. Focado em React e tecnologias
-            front-end.
+            Estudante de Analise e desenvolvimento de sistemas, ja desenvolvi projetos utilizando node.js, express, js para backend.
+            Tambem possuo experiencia em frontend envolvendo react, bootstrap html e css utilizando a estrutura vite, planejo aprender mais sobre 
+            a linguagem JAVA e springboot para me especializar nessas linguagens, estou livre no mercado de trabalho buscando oportunidades.
           </motion.p>
 
           {/* Botões de ação */}
