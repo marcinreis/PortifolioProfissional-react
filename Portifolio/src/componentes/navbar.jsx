@@ -65,7 +65,7 @@ function Navbar() {
         }}
         onClick={() => irParaSecao("inicio")}
       >
-        {"<MEU.NOME />"}
+        {"Marcio Reis"}
       </motion.span>
 
       {/* Links de navegação */}

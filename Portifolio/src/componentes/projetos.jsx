@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 import { useInView } from "framer-motion";
 import { useRef } from "react";
+import joabkidslogo from "../imagens/joabkidslogo.jpeg";
+import logoVesteBem from "../imagens/logoVesteBem.png";
 
 // ============================================================
 // LISTA DE PROJETOS — edite aqui para adicionar os seus!
@@ -8,35 +10,26 @@ import { useRef } from "react";
 const listaDeProjetos = [
   {
     id: 1,
-    nome: "Nome do Projeto 1",
-    descricao: "Breve descrição do que esse projeto faz.",
-    tecnologias: ["React", "CSS"],
-    linkRepositorio: "https://github.com/seu-usuario/projeto-1", // <-- coloque o link do repositório
-    logoSrc: "", // <-- coloque o caminho da logo ex: "/imagens/logo1.png"
+    nome: "JoabKids-Market",
+    descricao: "A Joab Kids é uma loja física de roupas e calçados infantis localizada em Canindé, Ceará, que hoje realiza suas vendas principalmente pelo Instagram e WhatsApp. Este projeto tem como objetivo digitalizar esse processo, criando uma plataforma de e-commerce completa para ampliar o alcance da loja e oferecer uma experiência de compra mais organizada para os clientes.",
+    tecnologias: ["React", "CSS", "js", "node.js", "express"],
+    linkRepositorio: "https://github.com/lefitano/JoabKids-Market", // <-- coloque o link do repositório
+    logoSrc: joabkidslogo, // <-- coloque o caminho da logo ex: "/imagens/logo1.png"
   },
   {
     id: 2,
-    nome: "Nome do Projeto 2",
-    descricao: "Breve descrição do que esse projeto faz.",
-    tecnologias: ["JavaScript", "HTML"],
-    linkRepositorio: "https://github.com/seu-usuario/projeto-2",
-    logoSrc: "",
+    nome: "VesteBem",
+    descricao: "Plataforma digital de doação de roupas que conecta doadores a beneficiários e ONGs, com foco em melhorar a distribuição geográfica e a qualidade das peças entregues a pessoas em situação de vulnerabilidade social.",
+    tecnologias: ["React", "CSS", "js", "node.js", "express"],
+    linkRepositorio: "https://github.com/marcinreis/VesteBem",
+    logoSrc: logoVesteBem,
   },
   {
     id: 3,
-    nome: "Nome do Projeto 3",
-    descricao: "Breve descrição do que esse projeto faz.",
-    tecnologias: ["Python", "Flask"],
-    linkRepositorio: "https://github.com/seu-usuario/projeto-3",
-    logoSrc: "",
-  },
-  {
-    id: 4,
-    nome: "Nome do Projeto 4",
-    descricao: "Breve descrição do que esse projeto faz.",
-    tecnologias: ["Node.js", "Express"],
-    linkRepositorio: "https://github.com/seu-usuario/projeto-4",
-    logoSrc: "",
+    nome: "MeuSalao",
+    descricao: "MeuSalão é um marketplace digital de serviços de beleza com foco em descoberta local e agendamento direto. A plataforma conecta clientes a salões de beleza próximos, centralizando serviços, agenda, preços e avaliações em um único lugar. Solução mobile-first voltada para conveniência, rapidez e proximidade.",
+    tecnologias: ["React", "Typescript"],
+    linkRepositorio: "https://github.com/marcinreis/2026.1_PA1_CD_MeuSalao",
   },
 ];
 // ============================================================
