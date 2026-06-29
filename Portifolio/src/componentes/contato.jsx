@@ -175,7 +175,7 @@ function Contato() {
           }}
         >
           {/* ===== EDITE O RODAPÉ AQUI ===== */}
-          © 2025 · Feito com React + Framer Motion · Seu Nome
+          © 2025 · Feito com React + Framer Motion · Marcio Reis
         </motion.p>
       </div>
     </section>
